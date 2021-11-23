@@ -13,8 +13,4 @@ jobs:
         timeout-minutes: 10
         with:
           run: | 
-            npx cypress run --record --spec "cypress/integration/1941720013.js"
-            npx cypress run --record --spec "cypress/integration/1941720031.js"
-            npx cypress run --record --spec "cypress/integration/1941720044.js"
-            npx cypress run --record --spec "cypress/integration/1941720052.js"
-            npx cypress run --record --spec "cypress/integration/2041723016.js"
+            cypress run --spec "cypress/integration/1941720031.spec.js,cypress/integration/1941720013.spec.js"
