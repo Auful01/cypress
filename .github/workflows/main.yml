@@ -12,4 +12,9 @@ jobs:
         uses: cypress-io/github-action@v2
         timeout-minutes: 10
         with:
-          run: npx cypress run --record --spec "cypress/integration/my-spec.js"
+          run: | 
+            npx cypress run --record --spec "cypress/integration/1941720013.js"
+            npx cypress run --record --spec "cypress/integration/1941720031.js"
+            npx cypress run --record --spec "cypress/integration/1941720044.js"
+            npx cypress run --record --spec "cypress/integration/1941720052.js"
+            npx cypress run --record --spec "cypress/integration/2041723016.js"
