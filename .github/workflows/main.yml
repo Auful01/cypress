@@ -13,4 +13,4 @@ jobs:
         timeout-minutes: 10
         with:
           run: | 
-            cypress run --spec "cypress/integration/1941720031.spec.js,cypress/integration/1941720013.spec.js"
+            cypress run --spec "cypress/integration/1941720031.spec.js,cypress/integration/test"
