@@ -1,4 +1,4 @@
-name: Chrome
+name: Testing With Github Workflow
 
 on: push
 
@@ -13,4 +13,4 @@ jobs:
         timeout-minutes: 10
         with:
           run: | 
-            cypress run --spec "cypress/integration/1941720031.spec.js,cypress/integration/test"
+            cypress run --spec "cypress/integration/test"
